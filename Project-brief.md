@@ -13,10 +13,12 @@ Ogbia L.G.A. sits in the Niger Delta, where seasonal flooding and rising water l
 - Elevation data covering Ogbia L.G.A.
 
 ## Part 4: Where Each Dataset Comes From
-- Ward boundaries — GRID3 — https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v3-0/about — Shapefile, ~187 MB
-- Settlement extents — GRID3 — //data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1/about — GeoPackage, ~1.88 GB
-- Watercourses — OpenStreetMap (via QuickOSM plugin, QGIS) — extracted for Ogbia L.G.A., Bayelsa State, Nigeria
-- Elevation — Copernicus DEM (30 m) — https://portal.opentopography.org - Geotiff - 21.4 MB
+|SN | Datasets | Source | Type | Size |
+| --- | --- | --- | --- | --- |
+| 1 | Ward boundaries | [GRID3](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v3-0/about) | Shapefile | 187 MB |
+| 2 | Settlement extents | [GRID3](//data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1/about) | GeoPackage | 1.88 GB |
+| 3 | Watercourses | OpenStreetMap (via QuickOSM plugin, QGIS) — extracted for Ogbia L.G.A., Bayelsa State, Nigeria | Shapefile | 2 mb |
+| 4 | Elevation | [Copernicus DEM (30m)](https://portal.opentopography.org) | Geotiff | 21.4 MB |
 
 ## Part 5: What I Would Build
 A map that flags settlements sitting on low-lying land within 200 metres of a watercourse, ranked by elevation relative to the nearest water body. This would be packaged as an interactive map that a local emergency planner or NGO officer could open before the rainy season to see, at a glance, which communities in Ogbia L.G.A. carry the highest flood exposure.
