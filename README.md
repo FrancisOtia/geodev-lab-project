@@ -15,3 +15,8 @@ Built over twelve months (From September 2026 - August 2027) with GeoDev Lab Afr
 ## Study Area Map
 ![Ogbia Ward Boundaries](img/Ogbia-wards.png)
 
+## Month 2: Development environment and early python
+- Week 5: Set up PYTHON, VS Code and the terminal. `hello.py` runs
+- cat shows a file content e.g. `cat hello.py`
+- cp copies a file e.g `cp hello.py hello_copy.py`
+- mv renames a file e.g. `mv hello_copy.py renamed.py`
