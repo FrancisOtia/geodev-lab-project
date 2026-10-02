@@ -24,6 +24,7 @@ Ogbia L.G.A. sits in the Niger Delta, where seasonal flooding and rising water l
 A map that flags settlements sitting on low-lying land within 200 metres of a watercourse, ranked by elevation relative to the nearest water body. This would be packaged as an interactive map that a local emergency planner or NGO officer could open before the rainy season to see, at a glance, which communities in Ogbia L.G.A. carry the highest flood exposure.
 
 ## Contact the Author
-Francis Otia
-francisotia@gmial.com
-+234 816 196 5054
+
+**Francis Otia**  
+📧 [francisotia@gmail.com](mailto:francisotia@gmail.com) 
+📱 `+234 816 196 5054`
