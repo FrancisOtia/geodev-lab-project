@@ -22,3 +22,5 @@ Built over twelve months (From September 2026 - August 2027) with GeoDev Lab Afr
 - cat shows a file content e.g. `cat hello.py`
 - cp copies a file e.g `cp hello.py hello_copy.py`
 - mv renames a file e.g. `mv hello_copy.py renamed.py`
+- Week 6: set up the project with uv and added pandas. Check.py prints the pandas version.
+- The lock file is longer than my list of packages because I installed requests with `uv  add requests`
