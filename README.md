@@ -25,3 +25,4 @@ Built over twelve months (From September 2026 - August 2027) with GeoDev Lab Afr
 - Week 6: set up the project with uv and added pandas. Check.py prints the pandas version.
 - The lock file is longer than my list of packages because I installed requests with `uv  add requests`
 - Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
+- Week 8: inspect_data.py summarises areas and elevations in my settlement_extent.csv for Ogbia LGA, Bayelsa State.
