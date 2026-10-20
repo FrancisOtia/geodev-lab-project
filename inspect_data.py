@@ -5,17 +5,27 @@ def inspect_column(filename, column):
         reader = csv.DictReader(f)
         rows = list(reader)
         
-    areas = []
+    values = []
+    non_numeric = 0
+    
     for row in rows:
-        raw_area = row[column].strip()
-        if raw_area == "":
+        raw = row[column].strip()
+        if raw == "":
             continue
-        areas.append(float(raw_area))
+        try:
+            values.append(float(raw))
+        except ValueError:
+            non_numeric += 1
+        
+    if not values:
+        return "No valid values found"
         
     return {
-        "Smallest":  min(areas),
-        "Largest": max(areas),
-        "Count": len(areas),
+        "Smallest":  min(values),
+        "Largest": max(values),
+        "Count": len(values),
+        "Average": sum(values) / len(values),
+        "Non-numeric values": non_numeric
     }
 area_stats = inspect_column("settlement_extent.csv", "area_sqm")
 print("About to process area stats")
