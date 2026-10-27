@@ -26,5 +26,10 @@ Built over twelve months (From September 2026 - August 2027) with GeoDev Lab Afr
 - The lock file is longer than my list of packages because I installed requests with `uv  add requests`
 - Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
 - Week 8: inspect_data.py summarises areas and elevations in my settlement_extent.csv for Ogbia LGA, Bayelsa State.
-- Week 9: Summary.py runs with column selection, value cleaning, statistics calculation, and result storage.
-- The capstone shows how my month one values in the attribute table matches with the results I got from Python result in month e.g. 1066 records for the settlements e.t.c.
+- Week 9: Summary.py runs with column selection, value cleaning, statistics calculation, and result storage for my area_sqm and elevation_mean_m fields.
+
+### Month 2 Reflection
+- The capstone shows how my month one values in the attribute table matches with the results I got from Python e.g 1066 records for the settlements etc
+- This shows how the values I read by clicking in my attribute table in QGIS can be automated with a script in Python
+- The values also matches with the previous exercise which is inspect_data.py 
+- This file summary.py only refactored what was in inspect_data.py to create a cleaner code with small functions
