@@ -1,0 +1,17 @@
+# Python environment and Caches
+
+.venv/
+__pycache__/
+*pyc
+
+# Rasters and archives are large: keep them out of the repo, rather keep them on your computer only
+*.tif
+*.tiff
+*.TIFF
+*.TIF
+*.zip
+
+# Editors and system clutter
+.DS_Store
+Thumbs.db
+.vscode/
