@@ -33,3 +33,7 @@ Built over twelve months (From September 2026 - August 2027) with GeoDev Lab Afr
 - This shows how the values I read by clicking in my attribute table in QGIS can be automated with a script in Python
 - The values also matches with the previous exercise which is inspect_data.py 
 - This file summary.py only refactored what was in inspect_data.py to create a cleaner code with small functions
+
+
+## Month 3: Geospatial Python and automation
+- Week 10: GeoPandas. Loaded, checked, joined and mapped my settlemnt layer in code.
