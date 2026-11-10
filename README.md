@@ -37,3 +37,4 @@ Built over twelve months (From September 2026 - August 2027) with GeoDev Lab Afr
 
 ## Month 3: Geospatial Python and automation
 - Week 10: GeoPandas. Loaded, checked, joined and mapped my settlemnt layer in code.
+- Week 11: CRS checks and spatial operations
