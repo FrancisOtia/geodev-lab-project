@@ -10,6 +10,9 @@ __pycache__/
 *.TIFF
 *.TIF
 *.zip
+.tfw
+.xml
+
 
 # Editors and system clutter
 .DS_Store
