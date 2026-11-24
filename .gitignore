@@ -18,3 +18,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .vscode/
+
+# DEM folder
+data/processed/cop_dem_30m_utm32/
