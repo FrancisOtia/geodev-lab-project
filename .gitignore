@@ -21,3 +21,12 @@ Thumbs.db
 
 # DEM folder
 data/processed/cop_dem_30m_utm32/
+
+
+# Raster auxiliary and world files
+*.aux.xml
+*.tfw
+*.vat.cpg
+*.vat.dbf
+*.tfw
+*.TIF.xml
